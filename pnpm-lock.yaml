@@ -81,8 +81,8 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1
       pdfjs-dist:
-        specifier: ^3.11.174
-        version: 3.11.174
+        specifier: ^4.10.38
+        version: 4.10.38
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -4084,7 +4084,10 @@ snapshots:
 
   '@types/pdfjs-dist@2.10.378':
     dependencies:
-      pdfjs-dist: 4.10.38
+      pdfjs-dist: 3.11.174
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
 
   '@types/react-dom@19.0.4(@types/react@19.0.10)':
     dependencies:
