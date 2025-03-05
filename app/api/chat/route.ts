@@ -1,22 +1,32 @@
-import { openai } from "@ai-sdk/openai";
-import { jsonSchema, streamText } from "ai";
+import { createGoogleGenerativeAI } from "@ai-sdk/google";
+import { streamText } from "ai";
 
 export const maxDuration = 30;
 
+const google = createGoogleGenerativeAI({
+  apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY,
+  baseURL: "https://generativelanguage.googleapis.com/v1beta",
+});
+
 export async function POST(req: Request) {
-  const { messages, system, tools } = await req.json();
+  try {
+    const { messages, extractedText } = await req.json();
 
-  const result = streamText({
-    model: openai("gpt-4o"),
-    messages,
-    system,
-    tools: Object.fromEntries(
-      Object.keys(tools).map((name) => [
-        name,
-        { ...tools[name], parameters: jsonSchema(tools[name].parameters) },
-      ])
-    ),
-  });
+    if (extractedText) {
+      messages.push({ role: "user", content: extractedText });
+    }
 
-  return result.toDataStreamResponse();
+    const result = streamText({
+      model: google("gemini-2.0-flash"),
+      messages,
+    });
+
+    return result.toDataStreamResponse();
+  } catch (err: any) {
+    console.error(err);
+    return new Response(JSON.stringify({ error: err.message }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
 }

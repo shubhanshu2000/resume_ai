@@ -1,0 +1,97 @@
+
+
+Take-Home Assignment: 
+Build a Resume Review Agent
+Overview
+We’re excited to see your skills in action! This assignment will evaluate your abilities in full-
+stack development, understanding of AI/agentic architecture, creativity, and problem-
+solving skills. You will build a hosted, working solution that reviews resumes and provides 
+personalized career guidance, acting as a career coach for users.
+Assignment Details
+Objective: Build an agentic platform that allows users to upload their resume. The system 
+will review the resume and provide the user with:
+• Personalized feedback on their resume.
+• Next steps for their career growth.
+• Specific advice to help them navigate their career path.
+The platform may hosted AI solutions such as Groq or other APIs with free credits. Ideally 
+the focus should be on the functionality of the application, especially on UX along with UI
+Requirements
+Core Features
+1. Resume Upload:
+• Allow users to upload their resume in PDF or Word format.
+• Parse and analyze the uploaded resume.
+2. AI-Powered Analysis:
+• Use AI to review the resume and extract key insights (e.g., skills, experience, 
+education).
+• Generate actionable feedback based on the extracted information.
+• Suggest potential career paths or next steps for improvement.
+3. User Guidance:
+• Provide coaching-like advice to help users figure out their career trajectory.
+02/03/2025, 08:46Take-Home Assignment: Build a Resume Review Agent
+https://loop.cloud.microsoft/print/eyJwIjp7InUiOiJodHRwczovL3NraWxsem8uc2hhcmVwb2ludC5jb20vY29udGVudHN0b3JhZ2UvQ1NQX2M5NjRhYWZm...1/3
+
+• A chat or canvas based interface for participants to converse with AI
+i. We would recommend using https://www.assistant-ui.com/, or other similar 
+libraries
+• Offer tailored recommendations such as skills to develop, certifications to 
+pursue, or industries to explore.
+4. Full-Stack Implementation:
+• Build a web-based platform with a front-end and back-end.
+• Host the solution so it is accessible for review.
+Technical Requirements
+• The system should be hosted and accessible via a public link.
+• You are free to use any programming languages, frameworks, or libraries for both 
+the front-end and back-end.
+• Implement an agentic architecture that demonstrates creativity and understanding 
+of AI technologies.
+• AI-assisted coding is allowed, but you must fully understand your implementation 
+as you’ll need to explain it during the interview.
+• Use APIs, pre-trained models, or any other resources to expedite development.
+Deliverables
+1. Hosted Solution: Provide a working link to your hosted application.
+2. Source Code:
+• Share your source code via GitHub or any other repository.
+• Include clear documentation on how to set up and run the project locally.
+3. ReadMe Documentation:
+• Describe the architecture, technologies used, and the rationale behind your 
+choices.
+• Provide setup instructions and usage details.
+4. Demo Video (Optional):
+• A short 2–3-minute video showcasing the application’s functionality.
+Evaluation Criteria
+1. Functionality:
+• Does the platform work as intended?
+• Are all core features implemented?
+02/03/2025, 08:46Take-Home Assignment: Build a Resume Review Agent
+https://loop.cloud.microsoft/print/eyJwIjp7InUiOiJodHRwczovL3NraWxsem8uc2hhcmVwb2ludC5jb20vY29udGVudHN0b3JhZ2UvQ1NQX2M5NjRhYWZm...2/3
+
+2. Understanding of AI and Agentic Architecture:
+• Does the solution effectively leverage AI to deliver meaningful feedback?
+• Is the architecture aligned with an agent-based design?
+3. Code Quality:
+• Is the code clean, readable, and well-structured?
+• Are best practices followed?
+4. Creativity:
+• How innovative and user-friendly is the solution?
+• Does it go beyond basic functionality to deliver a unique experience?
+5. Presentation:
+• Is the hosted solution accessible and well-documented?
+• Are instructions clear for reviewers to understand and test?
+Submission Instructions
+1. Submit your hosted application link, GitHub repository link, and any additional 
+deliverables to [provide email/portal details].
+2. Deadline: 5 working days (ensure your submission is complete before this date).
+3. Be prepared to:
+• Walk us through your code during the final interview.
+• Explain your approach, choices, and how the agentic architecture is 
+implemented.
+Additional Notes
+• There is no single "right" way to complete this assignment—we encourage creativity 
+and innovative problem-solving.
+• You will not be judged on how polished the UI is, but clarity and ease of use will be 
+appreciated.
+• Focus on delivering a functional and insightful solution that demonstrates your 
+understanding of the problem and your technical skills.
+Good luck, and we’re excited to see what you build!  
+02/03/2025, 08:46Take-Home Assignment: Build a Resume Review Agent
+https://loop.cloud.microsoft/print/eyJwIjp7InUiOiJodHRwczovL3NraWxsem8uc2hhcmVwb2ludC5jb20vY29udGVudHN0b3JhZ2UvQ1NQX2M5NjRhYWZm...3/3
